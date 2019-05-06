@@ -7,7 +7,6 @@ pipeline{
                 bat 'mvn clean package'
                 echo ' package is done and release .war file '
             }
-            }
         }
     }
 }
